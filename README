@@ -1,0 +1,36 @@
+#Python majner
+
+Ovo je 'getwork' majning klijent bazinran na procesoru za bitcoin.
+
+Ovo je cist pajton, sto znaci da je jako sporo. 
+
+#Nacin funkcionisanja konfiguracijonog fajla.  
+
+#
+# RPC detalji logovanja
+#
+host=127.0.0.1
+port=8332
+
+rpcuser=myusername
+rpcpass=mypass
+
+
+#
+# detalji majnovanja
+#
+
+threads=4 // broj tredova koji ucestvuju u majningu
+
+# period nakon koga se opet salje zahtev, ukoliko resenje nije nadjeno
+scantime=60
+
+
+#
+# misc.
+#
+
+
+
+# Setujemo ga na 1, da omugucim informacije o hash na izlazu
+hashmeter=0
